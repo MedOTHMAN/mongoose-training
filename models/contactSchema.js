@@ -5,16 +5,16 @@ const ContactSchema = mongoose.Schema({
     lastName : String,
     email : {
         type : String,
-        require : true,
+        required : true,
     },
     password : {
         type : String,
-        require : true,
+        required : true,
     },
-    adresse : 
+    adresse :
         {
             city : String,
-            postCode : number,
+            postCode : Number,
         },
 });
 
